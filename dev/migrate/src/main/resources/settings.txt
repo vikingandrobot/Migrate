@@ -1,0 +1,17 @@
+#GROUP
+Environnement de développement
+Host=localhost:8888
+Subdirectory=dev/nina
+Databse Host=localhost
+Database User=petite_photo
+Database Password=$J-hd7&!jdh$$82
+#ENDGROUP
+
+#GROUP
+Environnement de production
+Host=ninacuhat.com
+Subdirectory=/
+Databse Host=127.0.0.1:3306
+Database User=petite_photo
+Database Password=$J-hd7&!jdh$$82
+#ENDGROUP
