@@ -1,9 +1,9 @@
 # Résumé
 
-## lien
+## Lien
 https://premium.wpmudev.org/blog/git-for-wordpress-development/
 	
-## date 
+## Date 
 2017.09.08
 	
 ## Informations:
@@ -22,10 +22,10 @@ de production. On peut faire des changement push ou pull.
 
 
 # La façon de Josh Pollock
-## lien
+## Lien
 https://premium.wpmudev.org/blog/improve-wordpress-development-workflow-local-server/
 
-## date
+## Date
 2017.09.08
 
 ## Informations
@@ -39,13 +39,22 @@ https://premium.wpmudev.org/blog/improve-wordpress-development-workflow-local-se
 
 
 # La façon de Steve Grunwell
-## lien
+## Lien
 https://stevegrunwell.com/blog/keeping-wordpress-under-version-control-with-git/
 
-## date
+## Date
 2017.09.08
 
 ## Informations
+- Il conseille de ne pas versionner le coeur de Wordpress. Plutôt utiliser des manager de dépendances comme Composer.
+- Il fournit un exemple de .gitignore qu'on peut utiliser.
+- Ne pas inclure les médias dans le versionning
+- Il propose un lien pour charger les images directement depuis internet.
+- Garder wp-config en dehors du repo.
+
+# Ce que Migrate peut apporter
+
+
 
 
 
