@@ -54,6 +54,10 @@ https://stevegrunwell.com/blog/keeping-wordpress-under-version-control-with-git/
 
 # Ce que Migrate peut apporter
 
+- Gérer les fichiers de configuration (wp-config.php, .htaccess, ...) sur les différents environnements. 
+- Gérer la synchronisation de la base de données entre chaque mouvement production -> développement / développement -> production.
+- Offrir des outils pour automatiser des actions à chaque mise en production / récupération dans l'environnement de développement.
+- Effectuer les actions de mise en production via git automatiquement.
 
 
 
