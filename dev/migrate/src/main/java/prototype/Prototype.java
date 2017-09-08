@@ -65,7 +65,7 @@ public class Prototype {
 
 
         try {
-            ProcessBuilder   ps=new ProcessBuilder("git", "add", "--all");
+            ProcessBuilder   ps=new ProcessBuilder("ssh", "-tt", "ftpvik54423@vikingandrobot.ch", "-p2121");
 
 //From the DOC:  Initially, this property is false, meaning that the
 //standard output and error output of a subprocess are sent to two
@@ -75,6 +75,13 @@ public class Prototype {
             Process pr = ps.start();
 
             BufferedReader in = new BufferedReader(new InputStreamReader(pr.getInputStream()));
+            PrintWriter out = new PrintWriter(pr.getOutputStream());
+
+
+            System.out.println(in.readLine());
+            System.out.println(in.readLine());
+            out.println("Uudm8#04");
+            out.flush();
             String line;
             while ((line = in.readLine()) != null) {
                 System.out.println(line);
