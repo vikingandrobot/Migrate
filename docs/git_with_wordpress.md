@@ -58,6 +58,7 @@ https://stevegrunwell.com/blog/keeping-wordpress-under-version-control-with-git/
 - Gérer la synchronisation de la base de données entre chaque mouvement production -> développement / développement -> production.
 - Offrir des outils pour automatiser des actions à chaque mise en production / récupération dans l'environnement de développement.
 - Effectuer les actions de mise en production via git automatiquement.
+- Copie des médias depuis le serveur de production vers le serveur de développement (et vice-versa).
 
 
 
