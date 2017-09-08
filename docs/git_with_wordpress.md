@@ -1,7 +1,7 @@
-#Résumé#
-	##lien:##
+#Résumé
+	##lien
 		https://premium.wpmudev.org/blog/git-for-wordpress-development/
-	##date: 
+	##date 
 		2017.09.08
 	##Informations:
 		- Stocker la version officielle du site sur un repo privé (Bitbucket ou Github)
@@ -10,19 +10,19 @@
 		- L'environnement de développement est en local sur la machine du développeur.
 		- Il faut utiliser des outils supplémentaires pour gérer la base de données et s'assurer qu'elle soit à jour entre les différents environnements.
 
-	Problèmes intrinsèques:
+	##Problèmes intrinsèques:
 		- Comment gérer le fichier wp-config.php puisque la configuration change entre l'environnement de développement et l'environnement de production.
 		- Comment gérer les ficheirs médias ? Faut-il les intégrer au versionning régulièrement ?
 		- Est-ce que cela a un sens d'inclure le coeur de Wordpress au versionning ? Ou devrait-on se limiter aux plugins, thèmes, etc.
 		- Comment garder la DB à jour entre l'environnement de développement et  l'environnement de production ? 
 
 
-La façon de Josh Pollock
-	lien: 
+#La façon de Josh Pollock
+	##lien
 		https://premium.wpmudev.org/blog/improve-wordpress-development-workflow-local-server/
-	date: 
+	##date
 		2017.09.08
-	Informations:
+	##Informations
 		- Pour le développement en local, il conseille d'utiliser Vagrant. Cela permet de gérer des machines virtuelles pour créer ses environnements de développement. MAMP suffit sans doute dans un premier temps. 
 		- Utiliser Bitbucket pour gérer le repo privé.
 		- WP Migrate DB Pro pour exporter la DB
@@ -32,12 +32,12 @@ La façon de Josh Pollock
 		- Ensuite cloner le repo Bitbucket sur le serveur.
 
 
-La façon de Steve Grunwell
-	lien:
+#La façon de Steve Grunwell
+	##lien
 		https://stevegrunwell.com/blog/keeping-wordpress-under-version-control-with-git/
-	date:
+	##date
 		2017.09.08
-	Informations
+	##Informations
 
 
 
