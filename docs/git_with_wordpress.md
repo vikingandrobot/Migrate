@@ -1,8 +1,11 @@
 #Résumé
+
 ##lien
 		https://premium.wpmudev.org/blog/git-for-wordpress-development/
+	
 	##date 
 		2017.09.08
+	
 	##Informations:
 		- Stocker la version officielle du site sur un repo privé (Bitbucket ou Github)
 		- On utilise une connexion SSH pour cloner le repo du site sur le serveur
@@ -10,6 +13,7 @@
 		- L'environnement de développement est en local sur la machine du développeur.
 		- Il faut utiliser des outils supplémentaires pour gérer la base de données et s'assurer qu'elle soit à jour entre les différents environnements.
 
+	
 	##Problèmes intrinsèques:
 		- Comment gérer le fichier wp-config.php puisque la configuration change entre l'environnement de développement et l'environnement de production.
 		- Comment gérer les ficheirs médias ? Faut-il les intégrer au versionning régulièrement ?
