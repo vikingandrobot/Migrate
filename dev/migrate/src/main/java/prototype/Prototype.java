@@ -62,11 +62,29 @@ public class Prototype {
 
         Settings.buildSettings(settingsFile);
 
-        Runtime rt = Runtime.getRuntime();
-        System.out.println("Trying to run a command...");
+
+
         try {
-            Process pr = rt.exec("git commit -m \"commit de test...\"");
+            ProcessBuilder   ps=new ProcessBuilder("git", "add", "--all");
+
+//From the DOC:  Initially, this property is false, meaning that the
+//standard output and error output of a subprocess are sent to two
+//separate streams
+            ps.redirectErrorStream(true);
+
+            Process pr = ps.start();
+
+            BufferedReader in = new BufferedReader(new InputStreamReader(pr.getInputStream()));
+            String line;
+            while ((line = in.readLine()) != null) {
+                System.out.println(line);
+            }
+            pr.waitFor();
+            System.out.println("ok!");
+            in.close();
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
