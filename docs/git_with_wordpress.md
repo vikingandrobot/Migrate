@@ -1,5 +1,5 @@
-#Résumé 
-	##lien:
+#Résumé#
+	##lien:##
 		https://premium.wpmudev.org/blog/git-for-wordpress-development/
 	##date: 
 		2017.09.08
