@@ -1,9 +1,9 @@
-Résumé 
-	lien:
+#Résumé 
+	##lien:
 		https://premium.wpmudev.org/blog/git-for-wordpress-development/
-	date: 
+	##date: 
 		2017.09.08
-	Informations:
+	##Informations:
 		- Stocker la version officielle du site sur un repo privé (Bitbucket ou Github)
 		- On utilise une connexion SSH pour cloner le repo du site sur le serveur
 		de production. On peut faire des changement push ou pull. 
@@ -39,7 +39,7 @@ La façon de Steve Grunwell
 		2017.09.08
 	Informations
 
-		
+
 
 
 
